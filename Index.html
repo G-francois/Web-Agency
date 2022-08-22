@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="publics/images/logo.png" sizes="32x32" />
+	<title>WebAgency - L'agence de tous vos projets !</title>
+	<!-- Metadescription nécessaire au SEO -->
+	<meta name="description" content="L'agence de tous vos projets ! - Nous vous accompagnons dans vos projets de créations UI, UX et SEO">
+	<!-- Feuilles de style -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" /> 
+    <link rel="stylesheet" href="CSS/Styles.css">
+</head>
+<body>
+    <header>
+        <div id="logoWebagency">
+            <a href="#slider"><img src="Images/logo.png" alt="logo_webagency"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#slider">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projets">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+	</header>
+
+    <!-- La partie des images début-->
+    <div id="slider">
+        <div id="one" class="slide">
+            <div class="headerSlide"></div>
+            <div class="bodySlide">
+                <nav>
+                    <a class="prev" href="#two"><span class="icon-chevron-left"><</span></a>
+                    <a class="next" href="#two"><span class="icon-chevron-right">></span></a>
+                </nav>
+                <div class="textSlide">
+                    <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
+                    <p>Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                    <p><a href="#services">Plus d'infos</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="two" class="slide">
+            <div class="headerSlide"></div>
+            <div class="bodySlide">
+                <nav>
+                    <a class="prev" href="#one"><span class="icon-chevron-left"></span></a>
+                    <a class="next" href="#one"><span class="icon-chevron-right"></span></a>
+                </nav>
+                <div class="textSlide">
+                    <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
+                    <p>Découvrez ici nos services ainsi que nos dernières réalisations</p>
+                    <p><a href="#services">Plus d'infos</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- La partie des images fin-->
+
+    <!-- le corps de la page -->
+    <section id="services">
+		<div id="conteneurServices">
+			<div class="sectionHeader">
+				<h2>NOS SERVICES</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit emet, consectetur adipisicing elit, sed eiusmod tempor 
+                    incididunt ut et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			</div>
+            <div id="servicesBody">
+                <div>
+                    <img src="images/main-feature.png" alt="écran d'ordinateur">
+                </div>
+                <div>
+                    <div class="servicesDescription">
+                        <div class="servicesLogo">
+                            <div class="bulleBleue"></div>
+                            <div style="font-size: xxx-large;">
+                                <i class="fas fa-chart-line" id="UX"></i>
+                            </div>
+						    
+                        </div>
+                        <div class="servicesText">
+                            <h3>UX design</h3>
+                            <p>Lorem ipsum dolor sit emet, consectetur adipisicing elit, sed eiusmod tempor 
+                                incididunt ut et dolore magna aliqua</p>
+                        </div>
+                    </div>
+                    <div class="servicesDescription">
+                        <div class="servicesLogo">
+                            <div class="bulleBleue"></div>
+                            <div style="font-size: xxx-large;">
+                                <i class="fas fa-cubes" id="UI"></i>
+                            </div>
+		    				
+                        </div>
+                        <div class="servicesText">
+                            <h3>UI design</h3>
+                            <p>Lorem ipsum dolor sit emet, consectetur adipisicing elit, sed eiusmod tempor 
+                                incididunt ut et dolore magna aliqua</p>
+                        </div>
+                    </div>
+                    <div class="servicesDescription">
+                        <div class="servicesLogo">
+                            <div class="bulleBleue"></div>
+                            <div style="font-size: xxx-large;">
+                                <i class="fas fa-chart-pie" id="SEO"></i>
+                            </div>
+                            
+                        </div>
+    					<div class="servicesText">
+                            <h3>SEO</h3>
+                            <p>Lorem ipsum dolor sit emet, consectetur adipisicing elit, sed eiusmod tempor 
+                                incididunt ut et dolore magna aliqua</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>	
+	</section>
+
+	<section id="projets">
+		<div class="sectionHeader">
+			<h2>NOS PROJETS</h2>
+            <hr>
+			<p> Lorem ipsum dolor sit emet, consectetur adipisicing elit, sed eiusmod tempor 
+                incididunt ut et dolore magna aliqua. Ut enim ad minim veniam</p>
+		</div>
+		<nav>
+			<ul>
+				<li id="all_works">All Works</li>
+				<li id="creative">Creative</li>
+				<li id="corporate">Corporate</li>
+				<li id="portfolio">Portfolio</li>
+			</ul>
+		</nav>
+
+        <div class="projetsAlbum">
+            <div class="projet">
+            <figure>
+                <img src="Images/portfolio/01.jpg" alt="projet_Creative_item1">
+                <figcaption class="portfolio">
+                    <p>Portfolio Item 1</br>Lorem Ipsum Dolor Sit</p>
+                    <div>
+                        <i class="far fa-eye"></i>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="Images/portfolio/02.jpg" alt="projet_Creative_item2">
+                <figcaption  class="portfolio">
+                    <p>Portfolio Item 2</br>Lorem Ipsum Dolor Sit</p>
+                    <div>
+                        <i class="far fa-eye"></i>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="Images/portfolio/03.jpg" alt="projet_Creative_item3">
+                <figcaption  class="portfolio">
+                    <p>Portfolio Item 3</br>Lorem Ipsum Dolor Sit</p>
+                    <div>
+                        <i class="far fa-eye"></i>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="Images/portfolio/04.jpg" alt="projet_Corporate_item1">
+                <figcaption  class="portfolio">
+                    <p>Portfolio Item 4</br>Lorem Ipsum Dolor Sit</p>
+                    <div>
+                        <i class="far fa-eye"></i>
+                    </div>
+                </figcaption>
+            </figure>
+            </div>
+
+            <div class="projet">
+            <figure>
+                <img src="Images/portfolio/05.jpg" alt="projet_Corporate_item2">
+                <figcaption  class="portfolio">
+                    <p>Portfolio Item 5</br>Lorem Ipsum Dolor Sit</p>
+                    <div>
+                        <i class="far fa-eye"></i>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="Images/portfolio/06.jpg" alt="projet_Portfolio_item1">
+                <figcaption  class="portfolio">
+                    <p>Portfolio Item 6</br>Lorem Ipsum Dolor Sit</p>
+                    <div>
+                        <i class="far fa-eye"></i>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="Images/portfolio/07.jpg" alt="projet_Portfolio_item2">
+                <figcaption  class="portfolio">
+                    <p>Portfolio Item 7</br>Lorem Ipsum Dolor Sit</p>
+                    <div>
+                        <i class="far fa-eye"></i>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="Images/portfolio/08.jpg" alt="projet_Portfolio_item3">
+                <figcaption  class="portfolio">
+                    <p>Portfolio Item 8</br>Lorem Ipsum Dolor Sit</p>
+                    <div>
+                        <i class="far fa-eye"></i>
+                    </div>
+                </figcaption>
+            </figure>
+		</div>
+        </div>
+    </section>
+
+        <section id="contact">
+            <iframe class="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5248.431204606119!2d2.3454415680663883!3d48.873166307519575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145cb52f15%3A0x4d3ec41b2cadff0!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1484233326288" width="600" height="450" allowfullscreen></iframe>
+            <div id="conteneurContact">
+                 <form>
+                    <h2>Contact Info</h2>
+                    <p><span>WebAgency SAS</span><br>25 rue d'Hauteville, 75010 PARIS<br>Tél : 01 02 03 04 05</p>
+                    <input type="text" name="name" placeholder="Nom"/>
+                    <input type="text" name="email" placeholder="E-mail" />
+                    <input type="text" name="subject"  placeholder="Sujet"/>
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <p><a href="#" class="bouton" title="Envoyer votre message">Send message</a></p>
+                </form>  
+            </div>
+        </section>
+</body>
+</html>
